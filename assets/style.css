@@ -192,9 +192,20 @@ button {
     margin: 50px;
 }
 
-.parallax-container {
+.homeparallax{
     height: 600px; !important
 }
+
+.surveyparallax{
+    height: 200px; !important
+}
+
+.survey{
+    clear: both;
+    margin-top: 50px;
+}
+
+
 
 .drop {
     position: relative;
