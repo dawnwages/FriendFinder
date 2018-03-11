@@ -1,0 +1,515 @@
+/*
+font-family: 'Rubik', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Cabin', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Slabo 27px', serif;
+*/
+
+#pageBody{
+    margin-top: 100px;
+}
+
+#contact {
+    background-color: #DDB31A;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.intro {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px #fff solid;
+    margin: 7%;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.test{
+    background-image: url("velizar-ivanov-540528-unsplash.jpg");
+    background-size: 100%;
+    
+}
+
+.match{
+    background-image: url("carlos-muza-84523-unsplash.jpg");
+    background-size: 100%;
+    
+}
+
+.meet{
+    background-image: url("drew-farwell-481120-unsplash.jpg");
+    background-size: 100%;
+    
+}
+
+.content {
+/*    right: 40px;
+    left: 280px;
+    top: 50px;*/
+    position: absolute;
+    padding-bottom: 0px;
+    z-index:2;
+	-webkit-transition: all .6s ease-in-out;
+	-moz-transition: all .6s ease-in-out;
+	-o-transition: all .6s ease-in-out;
+	-ms-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out;
+  }
+
+.panel{
+	position: absolute;
+    margin-left: -102%;
+    margin-bottom: 200px;
+	z-index:2;
+	-webkit-transition: all .6s ease-in-out;
+	-moz-transition: all .6s ease-in-out;
+	-o-transition: all .6s ease-in-out;
+	-ms-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out;
+}
+.panel:target{
+    margin-top: 225px;
+	margin-left: 0%;
+	
+}
+
+#home:target ~ #top-banner #navigation #home-link,
+#next:target ~ #top-banner #navigation #next-link,
+#about:target ~ #header #navigation #link-about,
+#contact:target ~ #header #navigation #link-contact {
+  background: #000;
+  color: #fff;
+}
+
+.portfolio {
+    margin: 10px 88px;
+    height: 200px;
+}
+
+.imgtitles{
+    color: #fff;
+    width: 100%;
+    background: #000;
+    text-align: center;
+    margin-top: 160px;
+}
+
+
+.HangmanCLI{
+	background-image: url('images/01-Hangman-Cli.gif');
+}
+
+.img2{
+    background-image: url("http://lorempixel.com/400/400/transport/2");
+    opacity: 0.5;
+}
+
+.img3{
+    background-image: url("http://lorempixel.com/400/400/transport/3");
+    opacity: 0.5;
+}
+
+.img4{
+    background-image: url("http://lorempixel.com/400/400/transport/4");
+    opacity: 0.5;
+}
+
+.img5{
+    background-image: url("http://lorempixel.com/400/400/transport/5");
+    opacity: 0.5;
+}
+
+.img6{
+    background-image: url("http://lorempixel.com/400/400/transport/6");
+    opacity: 0.5;
+}
+
+.img7{
+	background-image: url("http://lorempixel.com/400/400/transport/7");
+}
+
+.img8{
+    background-image: url("http://lorempixel.com/400/400/transport/8");
+    opacity: 0.5;
+}
+
+.img9{
+    background-image: url("http://lorempixel.com/400/400/transport/9");
+    opacity: 0.5;
+}
+
+.certList {
+    font-size: 12px;
+}
+
+/*The future*/
+.main .row{
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 10px !important;
+   
+ }
+
+ .card-image {
+     height: 160px !important;
+ }
+
+.font1 {
+    padding-top: 215px;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    /*float: left;*/
+}
+
+/*is*/
+.font2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 75px;
+    float: right;
+    margin-top: 10px;
+}
+
+/*created by what*/
+.font3 {
+    font-family: 'Cabin', sans-serif;
+    float: right;
+    font-size: 15px;
+    letter-spacing: 10px;
+    margin-top: -50px;
+}
+
+button {
+    margin: 50px;
+}
+
+.parallax-container {
+    height: 600px; !important
+}
+
+.drop {
+    position: relative;
+  }
+
+
+.font4 {
+    font-family: 'Inconsolata', monospace;
+    text-align: right;
+    font-size: 25px;
+    /*font-style: oblique;*/
+    margin-top: -50px;
+}
+
+.font5 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    /* float: right; */
+    margin-top: 215px;
+}
+
+.font6 {
+    font-family: 'Slabo 27px', serif;
+}
+
+.font7 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.ball {
+    border-radius: 50%;
+    border: 1px solid #000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+    /*background: linear-gradient(to bottom right, #ada8b6, #E6E8E6);*/
+    /*background: url("https://images.fineartamerica.com/images-medium-large-5/raleigh-skyline-at-dusk-evening-black-and-white-bw-evening-panorama-north-carolina-nc-jon-holiday.jpg");
+    */background-size: 100%;
+    background-attachment: fixed;
+}
+
+div {
+   
+}
+.collapsible-body {
+    background: rgba(156, 156, 156, 0.9);
+/*    opacity: 0.6;
+    filter: alpha(opacity=60);*/
+}
+
+#github img{
+    width: 100%;
+}
+
+#ballBox {
+    height: 125px;
+    width: 100%;
+    position: fixed;
+    z-index: +999;
+}
+
+.scroll{
+    width: 20px;
+    height: 20px;
+}
+
+#me {
+    background-image: url('images/DawnbyPaulSetera.png');
+    background-size: 100%;
+    border-radius: 116px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.area {
+  /*  margin-top: 120px;*/
+}
+
+#home-buttons{
+
+}
+
+.home-card {
+    width: 622px;
+}
+
+.working {
+    border:  #fff solid 2px;
+}
+
+.home-button {
+    margin: 10px 100px 10px 100px;
+    width: 200px;
+}
+
+.wrapper {
+    padding: 0px 30px 0px 30px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 180px 180px 180px 180px 180px;
+   /* background-color: #fff;*/
+    color: #444;
+}
+
+.box {
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+
+}
+
+.box:hover {
+    background-color: rgb(218, 218, 218);
+    color: #7B4B94;
+}
+
+.box .comingsoon {
+    display: none;
+    
+}
+
+.box:hover .comingsoon {
+    display: block;
+    color: rgb(255, 17, 0);
+}
+
+.descr {
+    font-size: 12px;
+}
+
+.a {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+}
+.b {
+    grid-column: 5 / span 1;
+    grid-row: 1 / span 4;
+}
+.c {
+    grid-column: 1;
+    grid-row: 2;
+}
+.d {
+    grid-column: 2 ;
+    /*grid-row: 2 ;*/
+}
+
+.e {
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 3;
+}
+
+.f {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 5;
+}
+
+.g {
+    grid-column: 1 / span 1;
+    grid-row: 8 / span 1;
+}
+
+.h {
+    grid-column: 3 / span 3;
+    grid-row: 5;
+}
+
+.i {
+    grid-column: 2 / span 2;
+    grid-row: 8;
+}
+
+.j {
+    grid-column: 4 / span 2;
+    grid-row: 6 / span 2;
+}
+
+.k {
+    grid-column: 3;
+    grid-row: 6 / span 2;
+}
+
+.l {
+    grid-column: 4 / span 2;
+    grid-row: 8;
+}
+
+
+#aboutme, #about-text {
+    background-color: #7D82B8;
+}
+
+#tools, #tools-text {
+    background-color: #DD763E;
+}
+
+#Education, #edu-text {
+    background-color: #DDB31A;
+}
+
+#PD, #PD-text {
+    background-color: #7B4B94;
+}
+
+.me-top {
+    width: 230px;
+    height: 230px;
+    margin: 50px;
+    left: 39%;
+    top: -37px;
+    position: fixed;
+    z-index: +1000;
+}
+
+.me-scrolled {
+    width: 125px;
+    height: 125px;
+    margin: 50px;
+    left: -2%;
+    top: 35px;
+    position: fixed;
+    z-index: +1000;
+}
+
+#me:hover {
+    background-image: url('images/IMG_0675.png');
+    background-size: 100%;
+}
+
+
+.scriptTitle {
+    font-family: 'Pacifico', cursive;
+    font-size: 75px;
+    text-shadow: 2px 2px 8px #000000;
+    float: left;
+}
+
+.text-scrolled {
+    font-family: 'Pacifico', cursive;
+    font-size: 75px;
+    text-shadow: 2px 2px 8px #000000;
+    float: left;
+    padding-left: 150px;
+}
+
+#hoverNavBox {
+    /*margin-top: 100px;*/
+    height: 200px;
+}
+
+#navText {
+    margin-top: 0px;
+}
+
+#navName{
+    float: left;
+}
+
+#navLinks{
+
+}
+
+
+#title{
+    height: 400px;
+    margin-top: 50px;
+}
+
+#Box1 {
+    margin-top: 20px;
+}
+
+.divider {
+    margin: 10px;
+}
+
+.side-nav {
+    background-color: #465c69;
+}
+
+/*body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}*/
+
+#introduction{
+    margin: 35px;
+}
+
+nav {
+    text-shadow: 0 0 10px #000000;
+    clear: both;
+    margin-top: 125px;
+    border-bottom: 4px solid #DDB31A;
+    box-shadow: 0 4px 8px 0 rgba(17, 10, 10, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #7B4B94;
+    position: fixed;
+    z-index: +1000;
+}
+
+nav-title{
+    float:right;
+}
+
+.dropdown-content {
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 15px;
+    overflow-x: hidden;
+}
+
+.banner {
+    height: 20px;
+}
