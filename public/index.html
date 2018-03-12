@@ -19,8 +19,8 @@
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cabin|Inconsolata|Nunito|Nunito+Sans|Pacifico|Rubik|Slabo+27px" rel="stylesheet">
 
         <!-- My Style Sheet -->
-        <link rel="stylesheet" href="assets/style.css">
-        <link rel="stylesheet" href="assets/gallery.css">
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/gallery.css">
 
     </head>
 
@@ -93,18 +93,24 @@
 
 </body>
       <!-- On Scroll -->
-      <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>    
-
-      <!-- Added link to the jQuery Library -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>    
+<!-- Added link to the   Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-      <script type="text/javascript" src="assets/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="assets/script.js"></script>
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68495186-1"></script>
-      <script type="text/javascript" src="assets/googleanalytics.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-68495186-1"></script>
+     <script type="text/javascript">
+       $(document).ready(function(){
+          $('.parallax').parallax();
+        });
+
+        $(document).ready(function() {
+          $('select').material_select();
+        });
+     </script>
 
 </html>
