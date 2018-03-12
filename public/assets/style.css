@@ -16,6 +16,10 @@ font-family: 'Slabo 27px', serif;
     background-color: #DDB31A;
 }
 
+nav{
+    background-color: #DDB31A;
+}
+
 .title {
     font-weight: bold;
 }
@@ -499,16 +503,7 @@ div {
     margin: 35px;
 }
 
-nav {
-    text-shadow: 0 0 10px #000000;
-    clear: both;
-    margin-top: 125px;
-    border-bottom: 4px solid #DDB31A;
-    box-shadow: 0 4px 8px 0 rgba(17, 10, 10, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #7B4B94;
-    position: fixed;
-    z-index: +1000;
-}
+
 
 nav-title{
     float:right;

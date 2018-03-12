@@ -26,8 +26,16 @@
 
 
   <body onload="window.location.hash='home'">
+      <nav>
+          <div class="nav-wrapper">
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+              <li><a href="/api/friends">API Friend List</a></li>
+              <li><a href="www.DawnWages.com">Made by Dawn</a></li>
+            </ul>
+          </div>
+        </nav>
     <div class="parallax-container surveyparallax">
-        <div class="parallax"><img src="https://cdn.stocksnap.io/img-thumbs/960w/RQPNDMEZBE.jpg"></div>
+        <div class="parallax"><img src="assets/StockSnap_RQPNDMEZBE.jpg" style="max-width:1080px"></div>
     
         <div class="container">
                         <H1 class="font6 center white-text">FRIEND FINDER SURVEY</H1>
@@ -53,12 +61,12 @@
         <form>
                 <div class="row">
                         <div class="input-field col s6">
-                          <input placeholder="John Jacob" id="first_name" type="text" class="validate">
-                          <label for="first_name">First Name</label>
+                          <input placeholder="John" id="first_name" type="text" class="validate">
+                          <label for="first_name">username</label>
                         </div>
                         <div class="input-field col s6">
-                          <input placeholder="Jingleheimer Schmitt" id="last_name" type="text" class="validate">
-                          <label for="last_name">Last Name</label>
+                          <input placeholder="Jacob Jingleheimer Schmitt" id="last_name" type="text" class="validate">
+                          <label for="last_name">Full Name</label>
                         </div>
                       </div>
             </form>
