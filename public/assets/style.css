@@ -34,6 +34,12 @@ nav{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.match{
+    background-image: url("velizar-ivanov-540528-unsplash.jpg");
+    background-size: 100%;
+    
+}
+
 .test{
     background-image: url("velizar-ivanov-540528-unsplash.jpg");
     background-size: 100%;

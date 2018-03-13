@@ -102,5 +102,9 @@ $(document).ready(function(){
       var idx = matchArray.indexOf(Math.min.apply(null,matchArray));
       console.log(idx);
       console.log(friendData[idx]);
+
+      $(".bestfriend").css('background-image', 'url( "'+friendData[idx].photo+'")');
+      $(".bestfriend").css('background-size','100%');
+      $("#bestfriend-name").text(friendData[idx].userName);
     })
   };
