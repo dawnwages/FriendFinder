@@ -1,17 +1,20 @@
 var friends = [
     {
-      firstName: "AwesomeAhmed",
-      fullName: "Riz Ahmed ",
-      questionOne: 5,
-      questionTwo: 5,
-      questionThree: 5,
-      questionFour: 5,
-      questionFive: 5,
-      questionSix: 5,
-      questionSeven: 5,
-      questionEight: 5,
-      questionNine: 5,
-      questionTen: 5,
+      "userName":"Ahmed",
+      "fullName":"Ahmed",
+      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "scores":[
+          5,
+          1,
+          4,
+          4,
+          5,
+          1,
+          2,
+          5,
+          4,
+          1
+        ]
     }
   ];
   
