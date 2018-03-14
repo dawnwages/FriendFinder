@@ -48,7 +48,7 @@ $(document).ready(function(){
       $.post("/api/friends", newFriend,
         function(data) {
 
-          alert("Congratulations, Now let's find you a friend!");
+          //alert("Congratulations, Now let's find you a friend!");
          
           //Now play the matching game
           
@@ -75,7 +75,7 @@ $(document).ready(function(){
       console.log("------------------------------");
       console.log(friendData);
       user = friendData.length-1;
-      alert(friendData);
+      //alert(friendData);
 
       friendArray = [];
 
